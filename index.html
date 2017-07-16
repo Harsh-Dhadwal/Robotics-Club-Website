@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-AU">
+
+  <head>
+    <meta charset="utf-8">
+    <title>JCU Cairns Robotics Club</title>
+    <link href="mainStyle.css" rel="stylesheet" type="text/css">
+    <script src="mainScript.js"></script>
+  </head>
+
+  <body onload="navOpen();">
+
+    <div class="background">
+      <img src="images/robo_bg1.gif" height="1080px"/>
+    </div>
+
+    <div id="navCtn" class="nav-ctn">
+
+      <!-- Logo container -->
+      <div id="btnRc" class="logo-btn">
+        <svg class="glow-circle" viewBox="0 0 100 100">
+          <circle id="glow-logo" class="glow-fade" cx="50" cy="50" r="50" fill="#35637B" opacity="0"></circle>
+        </svg>
+        <img src="buttons/cogRc.svg" />
+        <svg  class="btn-wrapper" viewBox="0 0 100 100">
+          <circle onclick="navSwitch();" onmousemove="navGlow('glow-logo');" onmouseout="navDim('glow-logo');" cx="50" cy="50" r="50" fill="white" opacity="0"></circle>
+        </svg>
+      </div>
+
+      <!-- About Us Button -->
+      <div id="btnAu" class="nav-btns">
+        <svg class="glow-circle" viewBox="0 0 100 100">
+          <circle id="glow-Au" class="glow-fade" cx="50" cy="50" r="50" fill="#ed1233" opacity="0"></circle>
+        </svg>
+        <img src="buttons/cogAu.svg" />
+        <svg  class="btn-wrapper" viewBox="0 0 100 100">
+          <circle onclick="navClose();" onmousemove="navGlow('glow-Au');" onmouseout="navDim('glow-Au');" cx="50" cy="50" r="50" fill="white" opacity="0"></circle>
+        </svg>
+      </div>
+
+      <!-- Projects Button -->
+      <div id="btnPr" class="nav-btns">
+        <svg class="glow-circle" viewBox="0 0 100 100">
+          <circle id="glow-Pr" class="glow-fade" cx="50" cy="50" r="50" fill="#10b254" opacity="0"></circle>
+        </svg>
+        <img src="buttons/cogPr.svg" />
+        <svg  class="btn-wrapper" viewBox="0 0 100 100">
+          <circle onclick="navClose();" onmousemove="navGlow('glow-Pr');" onmouseout="navDim('glow-Pr');" cx="50" cy="50" r="50" fill="white" opacity="0"></circle>
+        </svg>
+      </div>
+
+      <!-- Join Us Button -->
+      <div id="btnJu" class="nav-btns">
+        <svg class="glow-circle" viewBox="0 0 100 100">
+          <circle id="glow-Ju" class="glow-fade" cx="50" cy="50" r="50" fill="#7a4bf5" opacity="0"></circle>
+        </svg>
+        <img src="buttons/cogJu.svg" />
+        <svg  class="btn-wrapper" viewBox="0 0 100 100">
+          <circle onclick="navClose();" onmousemove="navGlow('glow-Ju');" onmouseout="navDim('glow-Ju');" cx="50" cy="50" r="50" fill="white" opacity="0"></circle>
+        </svg>
+      </div>
+
+      <!-- UnKnown Button -->
+      <div id="btnUk" class="nav-btns">
+        <svg class="glow-circle" viewBox="0 0 100 100">
+          <circle id="glow-Uk" class="glow-fade" cx="50" cy="50" r="50" fill="#ff7c15" opacity="0"></circle>
+        </svg>
+        <img src="buttons/cogRc.svg" />
+        <svg  class="btn-wrapper" viewBox="0 0 100 100">
+          <circle onclick="navClose();" onmousemove="navGlow('glow-Uk');" onmouseout="navDim('glow-Uk');" cx="50" cy="50" r="50" fill="white" opacity="0"></circle>
+        </svg>
+      </div>
+
+
+    </div>
+
+  </body>
+
+</html>
